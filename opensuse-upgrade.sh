@@ -46,7 +46,7 @@ if ! [ "$2" = "--no-packman" ]; then
   # as listed on https://opensuse-guide.org/
   z addrepo --refresh "http://packman.inode.at/suse/openSUSE_Leap_$new/" packman
   z --releasever "$new" install $params --allow-vendor-change \
-    ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice56 libavdevice58 vlc-codecs
+    ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice58 vlc-codecs
   z --releasever "$new" install $params \
     vlc plasma-browser-integration freshplayerplugin xine-browser-plugin java-1_8_0-openjdk-plugin
   z --releasever "$new" dist-upgrade --from packman --allow-vendor-change $params
