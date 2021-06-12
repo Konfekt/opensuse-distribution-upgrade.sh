@@ -1,19 +1,19 @@
 #! /bin/bash
 #
 # To upgrade the operating system openSUSE, execute this script as root by:
-#   sudo opensuse-upgrade.sh 15.1
-# where the argument 15.1 is the newest version number
+#   sudo opensuse-upgrade.sh 15.3
+# where the argument 15.3 is the newest version number
 
 if ! { [ $# -eq 1 ] || { [ $# -eq 2 ] && [ "$2" = "--no-packman" ]; }; }; then
   echo "Please pass new version number!"
   echo "usage:   sudo opensuse-upgrade.sh <new version>"
-  echo "example: sudo opensuse-upgrade.sh 15.1"
+  echo "example: sudo opensuse-upgrade.sh 15.3"
   exit
 fi
 if [ $(id -u) -ne 0 ]; then
   echo "Please run as root by sudo!"
   echo "usage:   sudo opensuse-upgrade.sh <new version>"
-  echo "example: sudo opensuse-upgrade.sh 15.1"
+  echo "example: sudo opensuse-upgrade.sh 15.3"
   exit
 fi
   
@@ -46,7 +46,7 @@ if ! [ "$2" = "--no-packman" ]; then
   # as listed on https://opensuse-guide.org/
   z addrepo --refresh "http://packman.inode.at/suse/openSUSE_Leap_$new/" packman
   z --releasever "$new" install $params --allow-vendor-change \
-    ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice58 vlc-codecs
+    ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libavdevice58 vlc-codecs
   z --releasever "$new" install $params \
     vlc plasma-browser-integration freshplayerplugin xine-browser-plugin java-1_8_0-openjdk-plugin
   z --releasever "$new" dist-upgrade --from packman --allow-vendor-change $params
