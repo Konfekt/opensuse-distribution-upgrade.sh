@@ -44,12 +44,12 @@ z --releasever "$new" dist-upgrade $params
 if ! [ "$2" = "--no-packman" ]; then
   echo "Ensuring installation of media codes of version $new ..."
   # as listed on https://opensuse-guide.org/
-  z addrepo --refresh "http://packman.inode.at/suse/openSUSE_Leap_$new/" packman
+  z addrepo --refresh -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/Essentials' packman-essentials
   z --releasever "$new" install $params --allow-vendor-change \
     ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libavdevice57 libavdevice58 vlc-codecs
   z --releasever "$new" install $params \
-    vlc plasma-browser-integration freshplayerplugin xine-browser-plugin java-1_8_0-openjdk-plugin
-  z --releasever "$new" dist-upgrade --from packman --allow-vendor-change $params
+    vlc plasma-browser-integration
+  z --releasever "$new" dist-upgrade --from packman-essentials --allow-vendor-change $params
 fi
 
 echo "... upgrade completed."
