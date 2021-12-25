@@ -25,7 +25,7 @@ whose installations better be maintained, though they know little about administ
 # Word of Warning
 
 It is [officially recommended](https://en.opensuse.org/SDB:System_upgrade#Summary) to update using a DVD;
-generally, [more](https://kamarada.github.io/en/2019/05/27/how-to-upgrade-from-opensuse-leap-150-to-151/) [manual](https://www.cyberciti.biz/faq/how-to-upgrade-opensuse-15-1-to-15-2-using-the-cli/) approaches to upgrade are more robust.
+generally, a manual [GUI](https://linuxkamarada.com/en/2021/12/23/linux-kamarada-and-opensuse-leap-how-to-upgrade-from-152-to-153/) or [CLI](https://www.cyberciti.biz/faq/how-to-upgrade-opensuse-15-2-to-15-3-using-the-cli/) approach to upgrade is more robust.
 
 But they also demand more time and more experience in administering an openSUSE installation:
 The whole process of
