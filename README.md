@@ -57,7 +57,7 @@ To update the operating system `openSUSE Leap`:
     1. type the word `Konsole` and press the Enter key to launch it.
     1. Then return to this browser window (by clicking on it).
 
-2. To insert the line below that reads `curl ...` into the `Konsole` (where `15.4` is to be replaced by [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes)):
+2. To insert the line below that reads `curl ...` into the `Konsole` (where `15.5` is to be replaced by [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes)):
 
     ```sh
     curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.5
