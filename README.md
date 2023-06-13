@@ -43,7 +43,7 @@ Either ask a trustworthy third party that understands this fairly simple code, o
 
 # Parameters passed to the Script
 
-The first, mandatory, parameter is the version number to be updated to, for example, [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes), at the time of writing `15.5`.
+The first, mandatory, parameter is the version number to be updated to, for example, [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes), at the time of writing `15.6`.
 The second, optional, parameter `--no-packman` skips the installation of multimedia codes, for example, on a [`WSL`](https://github.com/microsoft/WSL/) installation without graphical interface.
 
 # Instructions for updating (in less than a minute)
@@ -57,10 +57,10 @@ To update the operating system `openSUSE Leap`:
     1. type the word `Konsole` and press the Enter key to launch it.
     1. Then return to this browser window (by clicking on it).
 
-2. To insert the line below that reads `curl ...` into the `Konsole` (where `15.4` is to be replaced by [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes)):
+2. To insert the line below that reads `curl ...` into the `Konsole` (where `15.6` is to be replaced by [openSUSE's current version number](https://en.opensuse.org/openSUSE:Release_Notes)):
 
     ```sh
-    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.5
+    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.6
     ```
 
     1. mark it completely (say by a fast triple click on it),
@@ -82,10 +82,10 @@ Zur Aktualisierung des Betriebssystems `openSUSE Leap`:
     1. Das Wort `Konsole` eingeben und die Eingabetaste drücken, um sie zu starten.
     1. Dann zu diesem Browserfenster zurückkehren (durch einen Klick hierauf).
 
-2. Um die folgende Zeile, die mit `curl ...` beginnt in die Konsole einzufügen (wobei `15.5` durch [openSUSEs aktuelle Versionsnummer](https://de.opensuse.org/Versionshinweise) zu ersetzen ist):
+2. Um die folgende Zeile, die mit `curl ...` beginnt in die Konsole einzufügen (wobei `15.6` durch [openSUSEs aktuelle Versionsnummer](https://de.opensuse.org/Versionshinweise) zu ersetzen ist):
 
     ```sh
-    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.5
+    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.6
     ```
 
     1. vollständig markieren (etwa durch einen schnellen Dreifachklick auf sie),
@@ -107,10 +107,10 @@ Para atualizar o sistema operacional `openSUSE Leap`:
     1. Digite a palavra `Konsole` e pressione a tecla `Enter` para inicá-lo.
     1. Em seguida, volte a esta janela do navegador (clicando nela).
 
-2. Para inserir a linha abaixo que começa com `curl ...`  no Konsole (onde `15.5` deve ser substituido pelo [número da versão atual de openSUSE Leap](https://en.opensuse.org/openSUSE:Release_Notes)):
+2. Para inserir a linha abaixo que começa com `curl ...`  no Konsole (onde `15.6` deve ser substituido pelo [número da versão atual de openSUSE Leap](https://en.opensuse.org/openSUSE:Release_Notes)):
 
     ```sh
-    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.5
+    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.6
     ```
 
     1. marque-a inteiramente (cliquando rápido três vezes sobre ela),
@@ -132,10 +132,10 @@ Pour mettre à jour le système d'exploitation `openSUSE Leap` :
     1. tapez le mot `Konsole` et appuyez sur la touche Entrée pour la lancer.
     1. Ensuite, revenez à cette fenêtre du navigateur (en cliquant dessus).
 
-2. Insérez la ligne ci-dessous qui se lit `curl ...` dans la console (où `15.5` doit être remplacé par [le numéro de la version actuelle de openSUSE Leap](https://en.opensuse.org/openSUSE:Release_Notes)) :
+2. Insérez la ligne ci-dessous qui se lit `curl ...` dans la console (où `15.6` doit être remplacé par [le numéro de la version actuelle de openSUSE Leap](https://en.opensuse.org/openSUSE:Release_Notes)) :
 
     ```sh
-    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.5
+    curl -s https://raw.githubusercontent.com/Konfekt/opensuse-distribution-upgrade.sh/master/opensuse-upgrade.sh | sudo bash /dev/stdin 15.6
     ```
 
     1. marquez-la complètement (disons par un triple clic rapide sur elle),
